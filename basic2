@@ -1,0 +1,15 @@
+import java.util.Scanner;
+{
+class Demo
+{
+public static void main(String args[])
+{
+Scanner scan = newScanner (System.in);
+int age = scan.nextInt();
+scan.nextLine();
+String name = scan.nextLine();
+System.out.println("Name:"+name);
+System.out.println("Age:"+age);
+}
+}
+}
